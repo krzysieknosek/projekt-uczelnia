@@ -1,0 +1,29 @@
+/*
+        // KURSY
+        operatorDanych.dodajObiekt("Kurs", "Analiza I", "Krzysztof Michalik", 5);
+        operatorDanych.dodajObiekt("Kurs", "Algebra z geometrią analityczną", "Ulyana Yarka", 4);
+        operatorDanych.dodajObiekt("Kurs", "Fizyka I", "Pan Taduesz", 4);
+
+        // PRACOWNICY
+        operatorDanych.dodajObiekt(operatorDanych.sprawdzPoprawnoscDanych("PracownikBadawczoDydaktyczny", "Jan", "Kowalski", "123456789", 35, "Mężczyzna", "Wykładowca", 5, 5000, 10));
+        operatorDanych.dodajObiekt(operatorDanych.sprawdzPoprawnoscDanych("PracownikAdministracyjny", "Anna", "Nowak", "987654321", 28, "Kobieta", "Referent", 3, 5000, 8));
+
+        // STUDENCI
+        operatorDanych.dodajObiekt(operatorDanych.sprawdzPoprawnoscDanych("Student", "Adam", "Mickiewicz", "111222333", 21, "Mężczyzna", 12345, 2, "Analiza I, Algebra z geometrią analityczną, Fizyka I", true, false, true, true));
+        operatorDanych.dodajObiekt(operatorDanych.sprawdzPoprawnoscDanych("Student", "Lidia", "Marksman", "444555667", 23, "Kobieta", 54322, 3, "Analiza I, Fizyka I", false, true, false, false));
+        operatorDanych.dodajObiekt(operatorDanych.sprawdzPoprawnoscDanych("Student", "Ania", "Marksman", "444555667", 26, "Kobieta", 54322, 3, "Analiza I, Fizyka I", false, true, false, false));
+
+        operatorDanych.dodajObiekt(operatorDanych.sprawdzPoprawnoscDanych("Student", "Leon", "Marksman", "444555667", 24, "Mężczyzna", 54322, 3, "Analiza I, Fizyka I", false, true, false, false));
+
+        operatorDanych.dodajObiekt(operatorDanych.sprawdzPoprawnoscDanych("Student", "Maria", "Curie", "444555666", 23, "Kobieta", 54321, 4, "Analiza I", false, true, false, false));
+
+
+
+    ArrayList<Object> wyszukiwanie = uczelnia.wyszukaj("Pracownik", "pensja", 5000);
+    ArrayList<Object> wyszukiwanie1 = uczelnia.wyszukaj("Klasy.Kurs", "nazwaKursu", "Analiza I");
+
+    for (Object obiekt: wyszukiwanie1) {
+        uczelnia.wypiszDane(obiekt);
+    }
+
+*/
